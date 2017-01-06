@@ -1,4 +1,4 @@
-# LTW Project
+# LTW - Polls
 
 Authors: João Pedro Milano Silva Cardoso
 
