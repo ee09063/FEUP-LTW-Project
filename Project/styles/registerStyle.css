@@ -1,0 +1,63 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html{
+  background-image: url("images/landscape.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+body{
+  font-family: verdana;
+  text-align:center;
+  background-color:white;
+  width:40%;
+  margin-top:5%;
+  margin-left:auto;
+  margin-right:auto;
+  border-style:solid;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin-bottom:10%;
+}
+
+fieldset{
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5%;
+  margin-bottom:5%;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-bottom: 3px groove;
+  padding-bottom:15px;
+}
+
+fieldset > legend{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom:10px;
+}
+
+input{
+  margin-top:5px;  
+}
+
+#errormsg{
+  color:red;
+}
+
+#mainframe > form > p.login-submit{
+  margin:10px;
+}
+
+#mainframe > form > p.login-submit > button{
+  padding:5px;
+}
+
+fieldset > p{
+  margin-bottom:15px;
+}

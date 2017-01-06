@@ -1,0 +1,96 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html{
+  background-image:url(landscape.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+}
+
+body{
+  background-color:white;
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;
+  border-style: solid;
+  border-width: 3px;
+  border-radius:20px;
+  -moz-border-radius: 20px;
+  text-align:center;
+  font-family: verdana;
+  font-size:1em;
+  margin-top:30px;
+}
+
+#profile >fieldset{
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#profile >fieldset >legend{
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 1.5em;
+  line-height: 3em;
+}
+
+#profile > fieldset > p{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+}
+
+#profile > fieldset > p >label{
+  font-size:1.2em;
+}
+
+/*CONTROL PANEL*/
+#controlPanel{
+  text-align: left;
+  border-bottom: 4px groove;
+}
+
+#controlPanel > #menu > li > a{
+  text-decoration: none;
+  color:transparent;
+  line-height: 4em;
+}
+
+#controlPanel > #menu > li {
+  list-style-type: none;
+  display:inline;
+}
+
+#logout_button{
+  background-image: url("logout_icon.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:2em;
+}
+
+#poll_create_button{
+  background-image: url("new_poll.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:2em;
+}
+
+#profile_button{
+  background-image: url("profile_icon.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:2em;
+}
+/*END CONTROL PANEL*/

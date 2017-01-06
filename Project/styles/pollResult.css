@@ -1,0 +1,189 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+html{
+    background-image:url("images/landscape.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align:center;
+    background-attachment:fixed;
+}
+
+body{
+    background-color:white;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    border-style:solid;
+    border-width:2px;
+    border-radius:20px;
+	-moz-border-radius: 20px;
+    overflow:auto;
+    text-align:center;
+}
+
+/*CONTROL PANEL*/
+#controlPanel{
+  text-align: left;
+  line-height:1.5em;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+#controlPanel > h2{
+	margin-left:20px;
+	font-family:verdana;
+	margin-bottom:10px;
+	font-size:1.2em;
+}
+
+#menu{
+	margin-left:5px;
+}
+
+#controlPanel > span > h2{
+	text-align:right;
+	margin-right:20px;
+	font-style:italic;
+	margin-top:-20px;
+}
+
+#controlPanel > #menu > li > a{
+  text-decoration: none;
+  color:transparent;
+  line-height:3em;
+}
+
+#controlPanel > #menu > li {
+  list-style-type: none;
+  display:inline;
+}
+
+#logout_button{
+  background-image: url("images/logout_icon.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1.5em;
+}
+
+#poll_create_button{
+  background-image: url("images/button.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1.5em;
+}
+
+#profile_button{
+  background-image: url("images/profile_icon.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1.5em;
+}
+/*END CONTROL PANEL*/
+
+
+#title{
+    text-align:center;
+    border-bottom: 4px groove;
+    border-top: 4px groove;
+    padding-bottom:15px;
+    padding-top:15px;
+    line-height:1em;
+    font-family:verdana;
+	margin-bottom:20px;
+}
+
+#description{
+    text-align:center;
+    font-style:italic;
+    font-size:1.2em;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#poll{
+    margin-bottom:10%;
+}
+
+#questions{
+    width:70%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#poll > img{
+    border: 2px solid;
+}
+
+.question_item{
+    border: 4px groove;
+    border-radius:15px;
+	-moz-border-radius: 15px;
+    margin-left:15px;
+    margin-right:15px;
+    padding-bottom:5px;
+	margin-bottom:20px;
+}
+
+.question_item >legend{
+    padding-right:20px;
+    padding-left:20px;
+    line-height:0px;
+	margin-bottom:20px;
+}
+
+.choices{
+    border:1px solid;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.question_total{
+    border:1px solid;
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+
+.chart{
+	 width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.choice_title{
+   
+}
+
+.choice_total{
+
+}
+
+#logout_button:hover,
+#profile_button:hover,
+#poll_create_button:hover{
+  outline: none;
+  border-color:blue;
+  box-shadow: 0 0 10px blue;
+  border-radius: 15px;
+}
+
+#questions > fieldset > div.choices > p{
+	padding:5px;
+}

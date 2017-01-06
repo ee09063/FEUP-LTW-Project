@@ -1,0 +1,23 @@
+<?php
+	$polls = get10Polls();
+?>
+
+<div id="searchingPolls">
+	<fieldset id="searchPolls" class = "field_set">
+		<legend align="center">
+			<input id="searchAllPolls" name="allPolls" type="text" placeholder="All Polls">
+		</legend>
+		<div id="searchPollsList">
+			<?php
+				foreach($polls as $poll)
+				{ ?>
+					<p>
+					<a href="poll_item.php?id=<?php echo $poll['id'];?>"><?php echo $poll['title']; ?></a>
+					</p>
+			<?php
+				}
+			?>
+		</div>
+	</fieldset>
+</div>
+

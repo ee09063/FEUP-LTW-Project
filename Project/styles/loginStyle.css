@@ -1,0 +1,79 @@
+html{
+	background-image:url("images/landscape.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+}
+
+body > p{
+	font-size:20px;
+	color:red;
+	text-align:center;
+}
+
+body{
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	font-family: verdana;
+	border: 5px solid; 
+	padding-bottom:5%;
+	width:30%;
+	text-align:center;
+	border-radius:20px;
+	-moz-border-radius: 20px;
+}
+
+body > img{
+	border: 5px groove black;
+	margin-top:20px;
+	border-radius:15px;
+	-moz-border-radius: 15px;
+}
+
+body>h3{
+	color:red;
+	text-align:center;
+	font-size:10px;
+}
+
+body > h1{
+	text-align:center;
+}
+
+#loginDiv{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form{
+	text-align:center;
+	display:inline;
+}
+
+fieldset{
+	border: 1px solid black;
+	margin-bottom:10px;
+	border-bottom: 3px groove;
+	border-radius:20px;
+	-moz-border-radius: 20px;
+}
+
+fieldset > p > input{
+	margin-top:10px;
+	border: 1px solid;
+	border-bottom:3px groove;
+}
+
+fieldset > legend{
+	padding-right:10px;
+	padding-left: 10px;
+}
+
+input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}

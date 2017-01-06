@@ -1,0 +1,24 @@
+<?php
+	$polls = get10PollsAnswered($_SESSION['id']);
+	
+?>
+
+<div id="searchingAnsweredPolls">
+	<fieldset id="searchAnsweredPolls" class = "field_set">
+		<legend align="center">
+			<input id="searchAnsweredPolls" name="answeredPolls" type="text" placeholder="Answered Polls">
+		</legend>
+		<div id="searchAnsweredPollsList">
+			<?php
+				foreach($polls as $poll)
+				{ ?>
+					<p>
+					<a href="poll_item.php?id=<?php echo $poll['id'];?>"><?php echo $poll['title']; ?></a>
+					</p>
+			<?php
+				}
+			?>
+		</div>
+	</fieldset>
+</div>
+

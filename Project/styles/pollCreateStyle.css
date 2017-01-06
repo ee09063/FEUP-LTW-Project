@@ -1,0 +1,179 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+html{
+    background-image:url("images/landscape.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body{
+    text-align:center;
+    background-color:white;
+    width:40%;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:solid;
+    border-width:2px;
+    border-radius: 15px;
+	-moz-border-radius: 15px;
+    font-family: verdana;
+    font-size:15px;
+}
+
+#createPollContainer{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+	margin-top:20px;
+}
+
+fieldset > legend{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+input{
+    margin-top:10px;
+}
+
+.delete_choice{
+    text-decoration:none;
+    color:transparent;
+    background-image: url("images/delete_icon.png");
+    background-repeat: no-repeat;
+    background-size: 1.1em;
+    background-position: center;
+}
+
+/*CONTROL PANEL*/
+#controlPanel{
+  text-align: left;
+  border-bottom: 3px solid;
+}
+
+#controlPanel > h2{
+	margin-left:20px;
+	margin-top:10px;
+	font-size:1.2em;
+}
+
+#controlPanel > span > h2{
+	text-align:right;
+	margin-right:20px;
+	font-style:italic;
+	margin-top:-30px;
+	margin-bottom:10px;
+	font-size:1em;
+}
+
+#menu{
+	margin-left:5px;
+}
+
+#controlPanel > #menu > li > a{
+  text-decoration: none;
+  color:transparent;
+  line-height: 5em;
+}
+
+#controlPanel > #menu > li {
+  list-style-type: none;
+  display:inline;
+}
+
+#logout_button{
+  background-image: url("images/logout_icon.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1.5em;
+}
+
+#poll_create_button{
+  background-image: url("images/button.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1.5em;
+}
+
+#profile_button{
+  background-image: url("images/profile_icon.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1.5em;
+}
+/*END CONTROL PANEL*/
+
+input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#logout_button:hover,
+#profile_button:hover,
+#poll_create_button:hover{
+  outline: none;
+  border-color:blue;
+  box-shadow: 0 0 10px blue;
+  border-radius: 15px;
+}
+
+#titlepar, #imagepar, #descpar{
+	margin-bottom:20px;
+}
+
+input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#privacyStatus{
+	border-radius:10px;
+	padding-bottom:15px;
+	margin-bottom:10px;
+}
+
+.new_question{
+	border-radius:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.questionbar{
+	margin-bottom:10px;
+}
+
+.delete_question, .add_choice{
+	margin-top:10px;
+}
+
+input[type="submit"]{
+	padding:5px;
+}
+
+#privacyStatus > input[type="radio"]{
+	margin-right:5px;
+	margin-left:5px;
+}
+
+img{
+	margin-top:10px;
+}
+
+#add_question, .add_choice, .delete_question{
+	width:10%;
+	margin-right:auto;
+	margin-left:auto;
+}

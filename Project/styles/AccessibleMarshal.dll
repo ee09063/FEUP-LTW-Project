@@ -1,0 +1,119 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html{
+  background-image:url(landscape.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+}
+
+ul#menu{
+  margin-left:20%;
+}
+
+#menu li{
+  display:inline-block;
+}
+
+#menu li a{
+  display:inline-block;
+  height:40px;
+  width:100px;
+    background: url('menu.png') 0px 0px #666666 no-repeat;
+}
+
+#menu li:first-of-type a{
+  width:90px;
+}
+#menu li:nth-of-type(2) a{
+  background-position: -90px 0px;
+}
+#menu li:nth-of-type(3) a{
+  background-position: -190px 0px;
+  width:105px;
+}
+#menu li:last-of-type a{
+  width:90px;
+  background-position: -296px 0px;
+}
+#menu li a:hover{
+  background-image: url('menuHover.png');
+}
+#menu li a:active{
+  background-image: url('menuActive.png');
+}
+
+body{
+  background-color:white;
+  width:55%;
+  margin-left:auto;
+  margin-right:auto;
+  border-style: solid;
+  border-width: 3px;
+  border-radius:15px;
+  padding-bottom:90%;
+}
+
+#userPolls{
+  width:55%;
+  float:left;
+}
+
+#searchingPolls{
+  width:35%;
+  float:left;
+}
+
+#userPolls{
+  margin-left:10px;
+  margin-right:5px;
+}
+
+#myPolls{
+  padding-left:10%;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-right:10%;
+  margin-top:3%;
+  max-width:100%;
+  max-height:100%;
+}
+
+#myPolls > legend{
+  padding-right:10px;
+  padding-left:10px;
+}
+
+#searchingPolls{
+  margin-left:3%;
+  margin-top:1.7%;
+  margin-left:1%;
+  margin-right:5%;
+}
+
+#searchPolls > legend{
+  padding-right:10px;
+  padding-left:10px;
+}
+
+#searchPolls{
+  padding-left:10%;
+  padding-right:5%;
+  padding-bottom:4%;
+  padding-top:2%;
+}
+
+.field_set{
+	border-color:black;
+    border-style:solid;
+}
+
+#edit_button{
+  margin-left:50%;
+}
+
+#delete_button{
+  margin-left:1%;
+}

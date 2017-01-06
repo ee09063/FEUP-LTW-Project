@@ -1,0 +1,278 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html{
+  background-image:url(images/landscape.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+}
+
+/*CONTROL PANEL*/
+#controlPanel{
+  text-align: left;
+  border-bottom: 3px solid;
+}
+
+#controlPanel > h2{
+	margin-top:5px;
+	margin-left:20px;
+	margin-bottom:3px;
+}
+
+#menu{
+	margin-left:5px;
+}
+
+#controlPanel > #menu > li > a{
+  text-decoration: none;
+  color:transparent;
+  line-height: 6em;
+}
+
+#controlPanel > span > h2{
+	text-align:right;
+	margin-right:20px;
+	font-style:italic;
+	margin-top:-30px;
+	margin-bottom:10px;
+}
+
+#controlPanel > #menu > li {
+  list-style-type: none;
+  display:inline;
+}
+
+#logout_button{
+  background-image: url("images/logout_icon.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:2.3em;
+}
+ 
+#poll_create_button{
+  background-image: url("images/button.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:2.3em;
+}
+
+#profile_button{
+  background-image: url("images/profile_icon.png");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:2.3em;
+}
+/*END CONTROL PANEL*/
+
+
+p{
+  border:2px solid;
+  margin-bottom:5px;
+  margin-top:5px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  overflow: hidden;
+}
+
+.pollItem{
+  line-height: 4em;
+}
+
+body{
+  background-color:white;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10%;
+  margin-top:40px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius:20px;
+  -moz-border-radius: 20px;
+  padding-bottom:25%;
+  text-align:center;
+  font-family: verdana;
+  font-size:0.7em;
+}
+
+#userBars{
+  width:100%;
+  margin-left:5%;
+}
+
+#userPolls{
+  width:40%;
+  margin-top:15px;
+  float:left;
+  margin-right:10px;
+  margin-left:-10px;
+}
+
+#searchingPolls{
+  width:25%;
+  margin-top:15px;
+  float:left;
+  margin-left:10px;
+}
+
+#searchingAnsweredPolls{
+  width:25%;
+  margin-top:15px;
+  float:left;
+}
+
+#searchAnsweredPollsList, #searchPolls{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#searchAnsweredPolls > legend{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#myPolls{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#myPolls > legend{
+  padding-right:20px;
+  padding-left:20px;
+}
+
+#searchPolls > legend{
+  padding-right:20px;
+  padding-left:20px;
+}
+
+input{
+  width:150px;
+  background-image: url("images/search-dark.png");
+  background-repeat: no-repeat;
+  padding-left:30px;
+  background-size: 10%;
+  padding-bottom:5px;
+  padding-top:5px;
+  background-position: left;
+}
+
+input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 20px #9ecaed;
+}
+
+.field_set{
+	border: 2px solid;
+  border-radius:15px;
+  -moz-border-radius: 15px;
+  padding-right:15px;
+  padding-left:15px;
+}
+
+.poll_link{
+  text-decoration: none;
+  color:black;
+  border: 1px solid;
+  padding-right:10px;
+  padding-left:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:10px;
+  -moz-border-radius: 10px;
+}
+
+.poll_link:hover{
+  background-color:chartreuse;
+}
+
+#searchingAnsweredPolls > fieldset > div > p > a{
+  text-decoration: none;
+  text-color:black;
+}
+
+#searchingPolls > fieldset > div > p > a{
+  text-decoration: none;
+  text-color:black;
+}
+
+/*
+  Now for all the buttons
+*/
+#private_button{
+  background-image: url(images/private_icon.png);
+  background-size:94%;
+  background-position: center;
+  color:transparent;
+  float:right;
+  width:52px;
+  height:4em;
+}
+
+#public_button{
+  background-image: url(images/public_icon.png);
+  background-size:94%;
+  background-position: center;
+  color:transparent;
+  float:right;
+  width:52px;
+  height:4em;
+}
+
+#lock_button{
+  background-image: url(images/lock.png);
+  background-size:50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:transparent;
+  float:right;
+  width:61px;
+  height:4em;
+}
+
+#unlock_button{
+  background-image: url(images/unlock.png);
+  background-size:50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:transparent;
+  float:right;
+  width:61px;
+  height:4em;
+}
+
+#delete_button{
+  background-image: url(images/delete_icon.png);
+  background-size:50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:transparent;
+  float:right;
+  width:61px;
+  height:4em;
+}
+
+#lock_button:hover,
+#unlock_button:hover,
+#private_button:hover,
+#public_button:hover,
+#logout_button:hover,
+#profile_button:hover,
+#poll_create_button:hover{
+  outline: none;
+  border-color:blue;
+  box-shadow: 0 0 10px blue;
+  border-radius: 15px;
+}
+
+span.nVotes{
+  margin-left:20px;
+  padding-left:10px;
+}
