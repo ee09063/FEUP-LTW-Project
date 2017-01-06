@@ -1,4 +1,4 @@
-#LTW Project
+# LTW Project
 
 Authors: João Pedro Milano Silva Cardoso
 
